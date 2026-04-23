@@ -4,6 +4,7 @@ import icon from "astro-icon";
 import { defineConfig, squooshImageService } from 'astro/config';
 
 export default defineConfig({
+  site: 'https://siya-kamat30.github.io',
   integrations: [tailwind(), mdx(), icon({
     include: {
       mdi: ["*"]
